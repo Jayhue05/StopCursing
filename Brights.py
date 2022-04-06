@@ -22,7 +22,7 @@ while True:
             text = text.lower()
 
             print(f"Recognized {text}")
-
+            #Don't mind the language
             if 's***' in text or "f***" in text or "damn" in text or "dogshit" in text or "damnit" in text or "pineapple" in text or "b****" in text or "niger" in text or "faget" in text or "Jello" in text:
                 closeFile()
 
